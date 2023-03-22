@@ -3,7 +3,7 @@ FROM ubuntu:16.04
 ENV EXPRESSVPN_CLIENT_DOWNLOAD_VERSION 3.45.0.2-1
 ENV EXPRESSVPN_CLIENT_VERSION 3.45.0.2
 ENV EXPRESSVPN_CLIENT_BUILD 7586
-ENV SHADOWSOCKS_VERSION v1.7.0-alpha.19
+ENV SHADOWSOCKS_VERSION v1.15.3
 
 RUN apt update && \
     apt install -y iproute2 wget curl iptables iputils* net-tools xz-utils supervisor && \

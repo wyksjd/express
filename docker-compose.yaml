@@ -7,7 +7,7 @@ services:
       - sys_admin
     environment:
       - VPN_LOCATION=usla1
-      - SS_METHOD=2022-blake3-chacha20-poly1305
+      - SS_METHOD=chacha20-ietf-poly1305
       - SS_PASSWORD=dangerous
     restart: always
     volumes:
